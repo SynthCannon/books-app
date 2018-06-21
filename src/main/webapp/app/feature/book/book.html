@@ -9,16 +9,17 @@
         			<th>{{'book_title' | uppercase}}</th>
         			<th>{{'release_year' | uppercase}}</th>
         			<th>{{'genre' | uppercase}}</th>
+					<th></th>
         		</tr>
         		<tr ng-repeat="book in bookCtrl.books">
         			<td>{{book.bookTitle}}</td>
         			<td>{{book.releaseYear}}</td>
         			<td>{{book.genre}}</td>
-					<!--<td><button class="btn" ng-click="bookCtrl.delete()">Delete</button></td>-->
+					<td><button class="btn" ng-click="bookCtrl.delete(book)">Delete</button></td>
         		</tr>
         	</table>
         </div>
-        <!--<button class="btn" ng-click="bookCtrl.hideTable()">Hide books</button>-->
+        <button class="btn" ng-click="bookCtrl.hideTable()">Hide books</button>
 			<!--<button class="btn" ng-click="bookCtrl.createNew()">New Book</button>-->
 	</div>
 </div>
