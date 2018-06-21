@@ -5,6 +5,8 @@
 
         var vm = this;
 
+        vm.formData = {};
+
         vm.isHidden = false;
 
         vm.hideTable = function () {
@@ -31,7 +33,20 @@
         vm.delete = function (bookToDelete) {
             bookService.deleteBook(bookToDelete);
             location.reload();
-        }
+        };
+
+        vm.add = function()
+        {
+            var bookToSave = {
+                "bookTitle" : vm.formData.titleInput,
+                "releaseYear" : vm.formData.yearInput,
+                "genre" : vm.formData.genreInput
+            }
+
+            bookService.saveBook(bookToSave);
+            init();
+            location.reload();
+        };
 
 
     };
