@@ -2,7 +2,6 @@ package com.btn.service.repository;
 
 import com.btn.domain.Book;
 import com.btn.util.JSONUtil;
-import org.apache.log4j.Logger;
 
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
@@ -35,10 +34,10 @@ public class BookDBRepository implements BookRepository {
 
     @Override
     @Transactional(REQUIRED)
-    public String createBook(String accout) {
-        Book anBook = util.getObjectForJSON(accout, Book.class);
+    public String createBook(String book) {
+        Book anBook = util.getObjectForJSON(book, Book.class);
         manager.persist(anBook);
-        return "{\"message\": \"book has been sucessfully added\"}";
+        return "{\"message\": \"book has been successfully added\"}";
     }
 
     @Override
@@ -50,7 +49,7 @@ public class BookDBRepository implements BookRepository {
             bookFromDB = updatedBook;
             manager.merge(bookFromDB);
         }
-        return "{\"message\": \"book sucessfully updated\"}";
+        return "{\"message\": \"book successfully updated\"}";
     }
 
     @Override
@@ -59,13 +58,13 @@ public class BookDBRepository implements BookRepository {
         Book bookInDB = findBook(id);
         if (bookInDB != null) {
             manager.remove(bookInDB);
-            return "{\"message\": \"book sucessfully deleted\"}";
+            return "{\"message\": \"book successfully deleted\"}";
         }
         return "{\"message\": \"book not found\"}";
 
     }
 
-    private Book findBook(Long id) {
+    protected Book findBook(Long id) {
         return manager.find(Book.class, id);
     }
 
