@@ -1,1 +1,1 @@
-INSERT INTO BOOK (id, bookTitle, releaseYear, genre) VALUES (1, 'DatBoi Chronicles', '2018', 'Mystery'),(2, 'DatBoi Chronicles 2', '2022', 'Crime'),(3, 'Dat
+INSERT INTO BOOK (id, bookTitle, releaseYear, genre) VALUES (1, 'DatBoi Chronicles', '2018', 'Mystery'),(2, 'DatBoi Chronicles 2', '2022', 'Crime'),(3, 'DatBoi Chronicles 3','2025','Romance');
