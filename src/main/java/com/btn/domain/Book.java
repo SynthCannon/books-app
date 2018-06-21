@@ -1,9 +1,9 @@
 package com.btn.domain;
 
 import lombok.*;
+
 import javax.persistence.*;
 import javax.validation.constraints.Size;
-import java.time.Year;
 import java.util.List;
 
 @Entity
@@ -15,25 +15,19 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long id;
-    @Size(min = 2, max = 80)
+    @Size(min = 1, max = 255)
     private String bookTitle;
-    @Column
-    private Year releaseYear;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "FK_GENRE")
-    private Long genreID;
-    @ManyToMany
-    @JoinTable( name = "GS_BOOK_AUTHOR",
-            joinColumns = @JoinColumn(name = "CD_BOOK"),
-            inverseJoinColumns = @JoinColumn(name = "CD_AUTHOR") )
-    private List<Author> authorsList;
+    @Size(min = 1, max = 5)
+    private String releaseYear;
+    @Size(min = 1, max = 255)
+    private String genre;
+//    @Column
+//    private List<String> authorsList;
 
-    public Book() {}
-
-    public Book(String bookTitle, Year releaseYear, Long genreID, List<Author> authorsList) {
+    public Book(String bookTitle, String releaseYear, String genre){//, List<String> authorsList) {
         this.bookTitle = bookTitle;
         this.releaseYear = releaseYear;
-        this.genreID = genreID;
-        this.authorsList = authorsList;
+        this.genre = genre;
+        //this.authorsList = authorsList;
     }
 }

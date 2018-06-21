@@ -1,5 +1,9 @@
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/service/business/BookServiceImpl.java
 /Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/domain/Book.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/integration/JAXActivator.java
 /Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/util/JSONUtil.java
-/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/util/Constants.java
-/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/domain/Genre.java
-/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/domain/Author.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/service/business/BookService.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/service/repository/BookMapRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/service/repository/BookRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/service/repository/BookDBRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/booksapp/src/main/java/com/btn/integration/BookEndpoint.java
