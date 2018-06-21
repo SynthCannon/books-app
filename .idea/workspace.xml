@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be79fca9-263c-4714-b4e7-c9840c741f10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/domain/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/service/repository/BookDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/service/repository/BookDBRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/btn/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/btn/domain/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/btn/service/repository/BookDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/btn/service/repository/BookDBRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +17,97 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/books_app$BookEndpointTest.ic" NAME="BookEndpointTest Coverage Results" MODIFIED="1529611677456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.btn.integration.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/books_app$BookEndpointTest_testUpdateBook.ic" NAME="BookEndpointTest.testUpdateBook Coverage Results" MODIFIED="1529611601459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.btn.integration.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest_testDeleteBook.ic" NAME="BookDBRepositoryTest.testDeleteBook Coverage Results" MODIFIED="1529611454286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.btn.service.repository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest.ic" NAME="BookDBRepositoryTest Coverage Results" MODIFIED="1529610610746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.btn.service.repository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest_testCreateBook.ic" NAME="BookDBRepositoryTest.testCreateBook Coverage Results" MODIFIED="1529610223367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.btn.service.repository.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BookDBRepositoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookEndpointTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookDBRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>account</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>book</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com.btn/intergration/AccountEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/service/business/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -62,12 +142,14 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="197" />
     <option name="y" value="22" />
-    <option name="width" value="960" />
+    <option name="width" value="1723" />
     <option name="height" value="1127" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -94,15 +176,107 @@
             <path>
               <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,10 +284,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com.btn/service" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,9 +310,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BookEndpointTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BookDBRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="books-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btn.service.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.btn.service.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.btn.service.repository.BookDBRepositoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BookDBRepositoryTest.testCreateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="books-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btn.service.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.btn.service.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.btn.service.repository.BookDBRepositoryTest" />
+      <option name="METHOD_NAME" value="testCreateBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BookDBRepositoryTest.testDeleteBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="books-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btn.service.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.btn.service.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.btn.service.repository.BookDBRepositoryTest" />
+      <option name="METHOD_NAME" value="testDeleteBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BookEndpointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="books-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btn.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.btn.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.btn.integration.BookEndpointTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BookEndpointTest.testUpdateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="books-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btn.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.btn.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.btn.integration.BookEndpointTest" />
+      <option name="METHOD_NAME" value="testUpdateBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -169,6 +467,22 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BookDBRepositoryTest" />
+      <item itemvalue="JUnit.BookDBRepositoryTest.testCreateBook" />
+      <item itemvalue="JUnit.BookDBRepositoryTest.testDeleteBook" />
+      <item itemvalue="JUnit.BookEndpointTest.testUpdateBook" />
+      <item itemvalue="JUnit.BookEndpointTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookEndpointTest" />
+        <item itemvalue="JUnit.BookEndpointTest.testUpdateBook" />
+        <item itemvalue="JUnit.BookDBRepositoryTest.testDeleteBook" />
+        <item itemvalue="JUnit.BookDBRepositoryTest" />
+        <item itemvalue="JUnit.BookDBRepositoryTest.testCreateBook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -182,18 +496,53 @@
       <updated>1529596990778</updated>
       <workItem from="1529596992210" duration="103000" />
       <workItem from="1529597143834" duration="122000" />
+      <workItem from="1529597325336" duration="237000" />
+      <workItem from="1529607575198" duration="4044000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 57m 20s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 57m 40s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 58m 04s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 58m 37s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 59m 02s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 21h 00m 07s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 21h 03m 14s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 21h 04m 15s.xml">
+      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookEndpointTest_testUpdateBook - 2018.06.21 at 21h 06m 42s.xml">
+      <configuration name="BookEndpointTest.testUpdateBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookEndpointTest - 2018.06.21 at 21h 07m 17s.xml">
+      <configuration name="BookEndpointTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225000" />
+    <option name="totallyTimeSpent" value="4506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="22" width="960" height="1127" extended-state="0" />
+    <frame x="197" y="22" width="1723" height="1127" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32897604" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.4992928" visible="true" weight="0.069601424" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -205,23 +554,25 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3291262" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31359223" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31359223" />
+      <window_info active="true" anchor="right" id="Coverage" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.069601424" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945533" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18024985" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32897604" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -232,10 +583,114 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.btn/service.repository/AccountDBRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.btn/intergration/AccountEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/business/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/business/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>books-app:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -268,6 +723,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>books-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
@@ -282,6 +750,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
