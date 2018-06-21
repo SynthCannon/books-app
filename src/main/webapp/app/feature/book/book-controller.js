@@ -9,12 +9,10 @@
 
         vm.hideTable = function () {
             vm.isHidden = !vm.isHidden
-
-        };
-
-        vm.delete = function (bookToDelete) {
-            bookService.deleteBook(bookToDelete);
-            init();
+            if(vm.isHidden)
+                document.getElementById('hideBtn').innerText = "Show books";
+            else
+                document.getElementById('hideBtn').innerText = "Hide books";
         };
 
         function init() {
@@ -29,6 +27,12 @@
         };
 
         init();
+
+        vm.delete = function (bookToDelete) {
+            bookService.deleteBook(bookToDelete);
+            location.reload();
+        }
+
 
     };
 
