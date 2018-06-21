@@ -4,6 +4,7 @@
    		{{bookCtrl.test}}
    		<div ng-hide="bookCtrl.isHidden">
         	<h3><span>Books table</span></h3>
+        	Search: <input ng-model="bookCtrl.srch">
         	<table class="table">
         		<tr>
         			<th>{{'book_title' | uppercase}}</th>
@@ -11,7 +12,7 @@
         			<th>{{'genre' | uppercase}}</th>
 					<th></th>
         		</tr>
-        		<tr ng-repeat="book in bookCtrl.books">
+        		<tr ng-repeat="book in bookCtrl.books|filter:bookCtrl.srch">
         			<td>{{book.bookTitle}}</td>
         			<td>{{book.releaseYear}}</td>
         			<td>{{book.genre}}</td>
