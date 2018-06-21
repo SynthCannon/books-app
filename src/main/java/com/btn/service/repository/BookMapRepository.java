@@ -54,7 +54,7 @@ public class BookMapRepository implements BookRepository{
     public String deleteBook(Long id) {
         LOGGER.info("BookMapRepository + deleteBook");
         bookMap.remove(id);
-        return "{\"message\": \"accout sucessfully removed\"}";
+        return "{\"message\": \"account sucessfully removed\"}";
     }
 
     private void initBookMap() {

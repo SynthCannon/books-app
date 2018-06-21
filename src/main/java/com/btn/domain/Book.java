@@ -7,18 +7,19 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
-@Getter @Setter
 @NoArgsConstructor
-@ToString @EqualsAndHashCode
 public class Book {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long id;
+    @Column(nullable = false)
     @Size(min = 1, max = 255)
     private String bookTitle;
-    @Size(min = 1, max = 5)
+    @Column(nullable = false)
+    @Size(min = 1, max = 4)
     private String releaseYear;
+    @Column(nullable = false)
     @Size(min = 1, max = 255)
     private String genre;
 //    @Column
