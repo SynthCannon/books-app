@@ -1,2 +1,7 @@
-com/btn/service/repository/BookMapRepository.class
+com/btn/service/repository/AuthorRepository.class
+com/btn/service/repository/AuthorDBRepository.class
 com/btn/domain/Author.class
+com/btn/integration/AuthorEndpoint.class
+com/btn/service/business/AuthorService.class
+com/btn/service/repository/BookMapRepository.class
+com/btn/service/business/AuthorServiceImpl.class

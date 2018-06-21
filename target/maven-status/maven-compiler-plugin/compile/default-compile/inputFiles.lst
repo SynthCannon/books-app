@@ -1,10 +1,15 @@
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/integration/JAXActivator.java
-/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/business/BookServiceImpl.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/business/AuthorServiceImpl.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/util/JSONUtil.java
-/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/BookRepository.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/business/BookService.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/BookMapRepository.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/integration/BookEndpoint.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/domain/Book.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/BookDBRepository.java
 /Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/domain/Author.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/AuthorDBRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/business/BookServiceImpl.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/BookRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/business/AuthorService.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/service/repository/AuthorRepository.java
+/Volumes/DatBoi/Computer/IdeaProjects/books-app/src/main/java/com/btn/integration/AuthorEndpoint.java
