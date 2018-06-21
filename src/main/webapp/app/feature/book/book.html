@@ -17,14 +17,14 @@
         			<td>{{book.genre}}</td>
 					<td><button class="btn" ng-click="bookCtrl.delete(book)">Delete</button></td>
         		</tr>
-				<!--<tr>-->
-					<!--<form>-->
-						<!--<td><input type="text" ng-model="bookCtrl.formData.titleInput"></td>-->
-						<!--<td><input type="text" ng-model="bookCtrl.formData.titleInput"></td>-->
-						<!--<td><input type="text" ng-model="bookCtrl.formData.titleInput"></td>-->
-						<!--<td><button type="button" ng-click="bookCtrl.add()"></td>-->
-					<!--</form>-->
-				<!--</tr>-->
+				<tr>
+					<form>
+						<td><input type="text" ng-model="bookCtrl.formData.titleInput"></td>
+						<td><input type="text" ng-model="bookCtrl.formData.yearInput"></td>
+						<td><input type="text" ng-model="bookCtrl.formData.genreInput"></td>
+					</form>
+					<td><button class="btn" ng-click="bookCtrl.add()">Add</td>
+				</tr>
         	</table>
         </div>
         <button class="btn" id="hideBtn" ng-click="bookCtrl.hideTable()">Hide books</button>
