@@ -1,5 +1,8 @@
-com/btn/util/Constants.class
-com/btn/domain/Genre.class
+com/btn/service/repository/BookDBRepository.class
+com/btn/integration/BookEndpoint.class
 com/btn/util/JSONUtil.class
-com/btn/domain/Author.class
 com/btn/domain/Book.class
+com/btn/integration/JAXActivator.class
+com/btn/service/business/BookService.class
+com/btn/service/repository/BookRepository.class
+com/btn/service/business/BookServiceImpl.class

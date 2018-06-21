@@ -7,6 +7,7 @@
     <groupId>com.btn.books</groupId>
     <artifactId>books-app</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -145,12 +146,13 @@
             <version>4.12</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.0</version>
+            <optional>true</optional>
         </dependency>
+
     </dependencies>
 
     <build>
