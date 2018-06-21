@@ -32,7 +32,7 @@ public class BookDBRepositoryTest {
 
     private JSONUtil util;
 
-    private static final String MOCK_DATA_ARRAY = "[{\"bookTitle\":\"John\",\"releaseYear\":\"1991\",\"genre\":\"1234\"}]";
+    private static final String MOCK_DATA_ARRAY = "[{\"bookTitle\":\"John\",\"releaseYear\":\"1991\",\"genre\":\"1234\",\"authorsList\":[]}]";
 
     private static final String MOCK_OBJECT = "{\"bookTitle\":\"Judd\",\"releaseYear\":\"1992\",\"genre\":\"1234\"}";
 

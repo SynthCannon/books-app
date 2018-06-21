@@ -10,7 +10,7 @@
         vm.isHidden = false;
 
         vm.hideTable = function () {
-            vm.isHidden = !vm.isHidden
+            vm.isHidden = !vm.isHidden;
             if(vm.isHidden)
                 document.getElementById('hideBtn').innerText = "Show books";
             else

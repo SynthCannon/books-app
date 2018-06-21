@@ -3,8 +3,10 @@
 	    <div class="panel-body">
    		{{bookCtrl.test}}
    		<div ng-hide="bookCtrl.isHidden">
-        	<h3><span>Books table</span></h3>
-        	Search: <input ng-model="bookCtrl.srch">
+			<table>
+                <td><h3><span>Books table</span></h3></td>
+        	    <td>Search: <input ng-model="bookCtrl.srch"></td>
+            </table>
         	<table class="table">
         		<tr>
         			<th>{{'book_title' | uppercase}}</th>

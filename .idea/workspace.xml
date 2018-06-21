@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be79fca9-263c-4714-b4e7-c9840c741f10" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/btn/domain/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/btn/service/repository/BookDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/btn/service/repository/BookDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/feature/book/book-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/feature/book/book-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/feature/book/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/feature/book/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/service/repository/BookDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/books-app/WEB-INF/classes/com/btn/service/repository/BookDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/books-app/app/feature/book/book-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/books-app/app/feature/book/book-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/books-app/app/feature/book/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/books-app/app/feature/book/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +31,7 @@
     <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest_testDeleteBook.ic" NAME="BookDBRepositoryTest.testDeleteBook Coverage Results" MODIFIED="1529611454286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.btn.service.repository.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest.ic" NAME="BookDBRepositoryTest Coverage Results" MODIFIED="1529610610746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest.ic" NAME="BookDBRepositoryTest Coverage Results" MODIFIED="1529614256426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.btn.service.repository.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/books_app$BookDBRepositoryTest_testCreateBook.ic" NAME="BookDBRepositoryTest.testCreateBook Coverage Results" MODIFIED="1529610223367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -39,36 +43,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookDBRepositoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Author.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/domain/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookMapRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#920#928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookDBRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1246#1252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookEndpointTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDBRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="50" />
+            <state relative-caret-position="334">
+              <caret line="34" column="138" selection-start-line="34" selection-start-column="138" selection-end-line="34" selection-end-column="138" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,10 +114,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com.btn/intergration/AccountEndpointTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/btn/service/business/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/feature/book/book.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/feature/book/book-controller.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/domain/Authors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/domain/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java" />
       </list>
     </option>
@@ -142,7 +160,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
+    <option name="x" value="153" />
     <option name="y" value="22" />
     <option name="width" value="1723" />
     <option name="height" value="1127" />
@@ -187,6 +205,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="btn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="btn" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="books-app" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookEndpointTest">
+  <component name="RunManager" selected="JUnit.BookDBRepositoryTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -476,10 +503,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookDBRepositoryTest" />
         <item itemvalue="JUnit.BookEndpointTest" />
         <item itemvalue="JUnit.BookEndpointTest.testUpdateBook" />
         <item itemvalue="JUnit.BookDBRepositoryTest.testDeleteBook" />
-        <item itemvalue="JUnit.BookDBRepositoryTest" />
         <item itemvalue="JUnit.BookDBRepositoryTest.testCreateBook" />
       </list>
     </recent_temporary>
@@ -497,17 +524,11 @@
       <workItem from="1529596992210" duration="103000" />
       <workItem from="1529597143834" duration="122000" />
       <workItem from="1529597325336" duration="237000" />
-      <workItem from="1529607575198" duration="4044000" />
+      <workItem from="1529607575198" duration="6659000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 57m 20s.xml">
-      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 57m 40s.xml">
-      <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookDBRepositoryTest_testDeleteBook - 2018.06.21 at 20h 58m 04s.xml">
       <configuration name="BookDBRepositoryTest.testDeleteBook" configurationId="JUnit" />
     </history-entry>
@@ -532,12 +553,18 @@
     <history-entry file="BookEndpointTest - 2018.06.21 at 21h 07m 17s.xml">
       <configuration name="BookEndpointTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookEndpointTest - 2018.06.21 at 21h 07m 58s.xml">
+      <configuration name="BookEndpointTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDBRepositoryTest - 2018.06.21 at 21h 50m 58s.xml">
+      <configuration name="BookDBRepositoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4506000" />
+    <option name="totallyTimeSpent" value="7121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="22" width="1723" height="1127" extended-state="0" />
+    <frame x="153" y="22" width="1723" height="1127" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -560,8 +587,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31359223" />
-      <window_info active="true" anchor="right" id="Coverage" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.069601424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31359223" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.069601424" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18024985" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32897604" />
@@ -622,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookDBRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -639,21 +659,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="395">
+          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1246#1252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/integration/BookEndpointTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/book/book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/feature/book/book-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/service/repository/BookMapRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/domain/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/btn/domain/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#920#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/btn/service/repository/BookDBRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="138" selection-start-line="34" selection-start-column="138" selection-end-line="34" selection-end-column="138" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -750,7 +811,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
